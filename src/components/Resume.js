@@ -1,7 +1,7 @@
 //import react
 
 import React from 'react';
-import resumePDF from '../assets/images/stephanie-resume.pdf'
+////
 
 
 

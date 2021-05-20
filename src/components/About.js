@@ -3,7 +3,7 @@
 //import react
 //../assets/images/ ...
 import React from 'react';
-import personalImage from "../assets/images/stephanie-porfolio-pic.jpeg";
+////
 //about section
 function About() {
   return (
