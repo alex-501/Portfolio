@@ -35,9 +35,8 @@ const Project = ({ project }) => {
           <h3>{project.name}</h3>
         </Link>
       </div>
-    </Router>
+    </Router>)}
 
-  )
-}
 
+//export project
 export default Project
