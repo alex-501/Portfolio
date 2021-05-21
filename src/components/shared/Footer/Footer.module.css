@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #021e39;
+}
+
+.footer a {
+    font-size: 2rem;
+    color: white;
+    margin-right: 15px;
+    transition: all 400ms;
+}
+
+.footer a:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,101 @@
+.resume {
+    padding: 60px 100px;
+    padding-left: 150px;
+}
+
+.heading {
+    text-align: center;
+    color: #111;
+}
+
+.heading h2 {
+    font-weight: 600;
+}
+
+.resume__link {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-align: center;
+    color: #6e5efe;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #6e5efe;
+    padding: 12px;
+    border-radius: 10px 5px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: #6e5efe;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.frontEndHeader {
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    line-height: 1.8;
+    background: #6e5efe;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 70%;
+    transition: transform 400ms;
+}
+
+.listItem:hover {
+    transform: scale(1.1);
+}
+
+.listItem span {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.backendHeader {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 750px) {
+    .listItem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .listItem {
+        width: 90%;
+    }
+    .resume {
+        padding: 60px 30px;
+        overflow: hidden;
+    }
+
+    .resume__link {
+        text-align: center;
+        width: 100%;
+    }
+
+    .frontEndHeader,
+    .backendHeader {
+        text-align: center;
+    }
+}
