@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/alex-501/Portfolio/issues"
   },
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
