@@ -1,77 +1,28 @@
-.formCard {
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #fefefe;
-    border-radius: 3px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-    overflow: hidden;
-}
+.formCard
+ {    margin: 20px auto;  max-width: 800px;    background-color: #fefefe;    border-radius: 3px;    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);    overflow: hidden;}
 
-.form {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-}
+.form 
+{    padding: 2rem;    display: flex;    flex-direction: column;}
 
-.button {
-    display: block;
-    width: 100%;
-    background-color: #e14;
-    border: none;
-    border-radius: 3px;
-    padding: 1ch;
-    font-size: 1rem;
-    color: #fff;
-    font-family: inherit;
-}
+.button
+ {  display: block;    width: 100%;    background-color: #e14;    border: none;border-radius: 3px;    padding: 1ch; font-size: 1rem;    color: #fff;    font-family: inherit;}
 
 .form input,
+
+
 .form textarea {
-    display: block;
-    width: 100%;
-    padding: 0.3em;
-    font-size: 20px;
-    background-color: #fbfbfb;
-    border: solid 1px #ccc;
-    resize: vertical;
-    transition: all 200ms ease-in-out;
-}
+    display: block;    width: 100%;    padding: 0.3em;    font-size: 20px;    background-color: #fbfbfb;    border: solid 1px #ccc;    resize: vertical;  transition: all 200ms ease-in-out;}
 
-.form input:focus,
-.form input:hover,
-.form textarea:focus,
-.form textarea:hover {
-    background: rgba(74, 217, 228, 0.2);
-}
+.form input:focus,.form input:hover,.form textarea:focus,.form textarea:hover
+ {   background: rgba(74, 217, 228, 0.2);}
 
-.form input[type="submit"] {
-    background: rgb(110, 94, 254) 0%;
-    margin: 1em 0 0;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    transition: all 0.3s ease-out;
-    cursor: pointer;
-}
+.form input[type="submit"]
+ {    background: rgb(110, 94, 254) 0%;
+    margin: 1em 0 0;    color: white;  border: none;  border-radius: 8px;   transition: all 0.3s ease-out;    cursor: pointer;}
 
-.form input[type="submit"]:hover {
-    background: #6d76f7;
-}
+.form input[type="submit"]:hover {    background: #6d76f7;}
 
 .form label {
-    display: inline-block;
-    font-size: 1.25rem;
-    font-weight: 500;
-    font-family: inherit;
-    margin-bottom: 5px;
-}
+    display: inline-block;   font-size: 1.25rem; font-weight: 500;    font-family: inherit;    margin-bottom: 5px;}
 
-.form div {
-    margin: 10px 0;
-}
-
-/* @media screen and (max-width: 950px) {
-    .formCard {
-        width: 85%;
-    }
-} */
+.form div {    margin: 10px 0;}
