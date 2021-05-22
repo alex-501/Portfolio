@@ -11,7 +11,7 @@ export const portfolioItems = [
         image: budget },
     {     title: "Weather Dashboard",
         description: " JavaScript, HTML, and CSS",
-        liveLink: "/", githubLink: "https://github.com/ATXiceman512/Weather_Dashboard",
+        liveLink: "/", githubLink: "https://github.com/alex-501/Weather-Dashboard",
         image: weather},
     
     
