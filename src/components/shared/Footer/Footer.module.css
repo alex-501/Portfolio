@@ -1,6 +1,8 @@
 .footer 
 {   display: flex;    justify-content: center;align-items: center;
-    padding: 2rem;    background: #021e39;}
+    padding: 2rem;    background: linear-gradient(
+        90deg,        rgb(73, 6, 15) 0%,   #021e39 100%    );
+    }
 
 .footer a 
 {    font-size: 2rem;    color: white;    margin-right: 15px;  transition: all 400ms;}

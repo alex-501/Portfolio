@@ -1,144 +1,64 @@
-.NavbarItems {
-    background: linear-gradient(
-        90deg,
-        rgb(110, 94, 254) 0%,
-        #021e39 100%
-    );
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-}
 
-.navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-}
+.NavbarItems 
+{    background: linear-gradient(
+        90deg,        rgb(73, 6, 15) 0%,   #021e39 100%    );
+    height: 80px;    display: flex;  justify-content: center;
+    align-items: center;    font-size: 1.2rem;}
 
-.fa-react {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-}
+.navbar-logo
+ {    color: #fff;  justify-self: start;    margin-left: 20px;    cursor: pointer;}
 
-.nav-menu {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-right: 2rem;
-}
+.fa-react 
+{    margin-left: 0.5rem;   font-size: 1.6rem;}
 
-.nav-links {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
+.nav-menu 
+{    overflow: hidden;
+    margin: 0;    padding: 0;  justify-content: end;    margin-right: 2rem;
+    display: grid;    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;    list-style: none;  text-align: center;    width: 70vw;}
 
-.nav-links:hover {
-    background-color: #6d76f7;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-}
+.nav-links {    color: white;  text-decoration: none;padding: 0.7rem 1rem;}
 
-.nav-links.active {
-    color: #4ad9e4;
-}
+.nav-links:hover {    background-color:  rgb(73, 6, 15) 0%,;    border-radius: 4px; transition: all 0.2s ease-out;}
 
-.fa-bars {
-    color: #fff;
-}
+.nav-links.active{  color: #4ad9e4;}
 
-.nav-links-mobile {
-    display: none;
-}
+.fa-bars {  color: #fff;}
 
-.menu-icon {
-    display: none;
-}
+.nav-links-mobile {    display: none;}
 
-@media screen and (max-width: 960px) {
-    .NavbarItems {
-        position: relative;
-    }
+.menu-icon {  display: none;}
 
-    .nav-menu {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        top: 80px;
-        left: -100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-    }
+@media screen and (max-width: 960px) 
+{ .NavbarItems {       position: relative;}
 
-    .nav-menu.active {
-        background: #6668f4;
-        left: 0;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 1;
-    }
+    .nav-menu
+     {   display: flex; flex-direction: column;
+        width: 100%;   height: 100vh;     position: absolute;  top: 80px;   left: -100%;  opacity: 1; transition: all 0.5s ease;}
 
-    .nav-links {
-        text-align: center;
-        padding: 2rem 0;
-        width: 100%;
-        display: table;
-    }
+    .nav-menu.active 
+    {    background: #3f0520;   left: 0;  opacity: 1;  transition: all 0.5s ease;z-index: 1;}
 
-    .nav-links:hover {
-        background-color: #021e39;
-        border-radius: 0;
-    }
+    .nav-links 
+    { text-align: center;
+        padding: 2rem 0;     width: 100%;        display: table;}
 
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+    .nav-links:hover 
+    {  background-color: #021e39;   border-radius: 0;}
 
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
+    .navbar-logo 
+    {    position: absolute; top: 0;        left: 0;}
 
-    .fa-times {
-        color: #fff;
-        font-size: 2rem;
-    }
+    .menu-icon 
+    {    display: block;        position: absolute;        top: 0;        right: 0;        transform: translate(-100%, 60%);
+        font-size: 1.8rem;        cursor: pointer;}
 
-    .nav-links-mobile {
-        display: block;
-        text-align: center;
-        padding: 1.5rem;
-        margin: 2rem auto;
-        border-radius: 4px;
-        width: 80%;
-        background: #4ad9e4;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-    }
+    .fa-times 
+    {    color: #fff;   font-size: 2rem;}
 
-    .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568f4;
-        transition: 250ms;
-    }
-}
+    .nav-links-mobile 
+    {    display: block;   text-align: center;   padding: 1.5rem; margin: 2rem auto;  border-radius: 4px;
+        width: 80%; background:  rgb(73, 6, 15) 0%;    text-decoration: none;   color: #fff;     font-size: 1.5rem;    }
+
+    .nav-links-mobile:hover
+     {    background: #fff;  color: #520f16;  transition: 250ms;  }}

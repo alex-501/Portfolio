@@ -18,8 +18,8 @@
 
 .content__img 
 {    width: 200px;
-    height: 200px;
-    background-color: #ffffff;
+    height: 200px;background: linear-gradient(
+        90deg,        rgb(73, 6, 15) 0%,   #021e39 100%    );
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 1rem;}

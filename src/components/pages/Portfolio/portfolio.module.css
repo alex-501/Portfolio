@@ -34,8 +34,8 @@
 {  display: flex;    justify-content: center;}
 
 .button
- {    text-align: center;    color: #6e5efe;    display: inline-block;    text-decoration: none;    
-    border-bottom: 1px solid #6e5efe;padding: 12px;    border-radius: 10px 5px;   transition: all 0.3s;}
+ {    text-align: center;    color: #4b0d0d;    display: inline-block;    text-decoration: none;    
+    border-bottom: 1px solid #2e091c;padding: 12px;    border-radius: 10px 5px;   transition: all 0.3s;}
 
 .button:hover 
 {    background-color: #6e5efe;   color: #fff;    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);transform: translateY(-2px);}
